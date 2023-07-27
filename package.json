@@ -1,0 +1,23 @@
+{
+  "name": "kachelmann-api",
+  "version": "0.1.0",
+  "description": "A wrapper around the Kachelmann Wetter API.",
+  "author": "Max @maxboettinger",
+  "homepage": "https://github.com/maxboettinger/kachelmann-api",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "maxboettinger/kachelmann-api",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "test": "npx tsc && clear && node dist/test.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.5",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
