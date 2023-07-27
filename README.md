@@ -1,8 +1,8 @@
 # kachelmann-api
 
-[![Version](https://img.shields.io/npm/v/kachelmann-api.svg)](https://www.npmjs.com/package/pietsmiet-api)
+[![Version](https://img.shields.io/npm/v/kachelmann-api.svg)](https://www.npmjs.com/package/kachelmann-api)
 [![Downloads/week](https://img.shields.io/npm/dw/kachelmann-api.svg)](https://www.npmjs.com/package/kachelmann-api)
-[![License](https://img.shields.io/npm/l/pietsmiet-api.svg)](https://github.com/maxboettinger/kachelmann-api/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/kachelmann-api.svg)](https://github.com/maxboettinger/kachelmann-api/blob/master/package.json)
 
 An (unofficial!) wrapper around the [kachelmannwetter.com](https://kachelmannwetter.com/de) API.
 
